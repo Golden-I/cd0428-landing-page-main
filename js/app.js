@@ -152,6 +152,6 @@ scrollUp.addEventListener("click", () => {
 // contactForm 
 const form  = document.getElementById('contactForm');
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', (contactForm) => {
     // handle the form data
 });
