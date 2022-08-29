@@ -149,13 +149,9 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
-//my form
-const checkbox = document.querySelector('.contactForm input[type="checkbox"]');
-const btns = document.querySelectorAll(".fromButton");
+// contactForm 
+const form  = document.getElementById('contactForm');
 
-checkbox.addEventListener("change", function() {
-  const checked = this.checked;
-  for (const btn of btns) {
-    checked ? (btn.disabled = false) : (btn.disabled = true);
-  }
+form.addEventListener('submit', (event) => {
+    // handle the form data
 });
